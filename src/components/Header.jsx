@@ -12,6 +12,11 @@ export default function Header() {
           </a>
         ))}
       </nav>
+      <form className="search" onSubmit={(e) => e.preventDefault()}>
+        <label>Search</label>
+        <input type="search" placeholder="Search products" />
+        <button>Go</button>
+      </form>
       <button onClick={() => alert('cart')}>Cart</button>
     </header>
   );

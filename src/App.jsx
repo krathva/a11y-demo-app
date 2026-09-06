@@ -3,6 +3,7 @@ import Header from './components/Header.jsx';
 import HeroBanner from './components/HeroBanner.jsx';
 import NewsletterForm from './components/NewsletterForm.jsx';
 import ProductCard from './components/ProductCard.jsx';
+import ProductFilter from './components/ProductFilter.jsx';
 import Footer from './components/Footer.jsx';
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
       <Header />
       <main>
         <HeroBanner />
+        <ProductFilter />
         <NewsletterForm />
         <section className="products">
           <h2>Featured gifts</h2>
