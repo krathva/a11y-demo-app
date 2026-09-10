@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ProductCard({ name, price }) {
   return (
-    <div role="button" tabIndex="0"
+    <button type="button"
       className="product-card"
       
       onClick={() => window.location.assign(`/products/${name}`)}
@@ -14,7 +14,7 @@ export default function ProductCard({ name, price }) {
         Add to wishlist
       </div>
       <iframe src="https://reviews.example.com/embed" title="Customer Reviews" />
-      <span onMouseOver={() => alert('quick view')} onMouseOut={() => {}} onFocus={() => alert('quick view')} onBlur={() => {}} tabIndex="0">
+      <button type="button" onClick={() => alert('quick view')}>Quick View</button>
         Hover for details
       </span>
     </div>
