@@ -2,14 +2,14 @@ import React from 'react';
 
 export default function HeroBanner() {
   return (
-    <section
+    <section role="button" tabIndex={0}
   onClick={handleSectionClick}
   onKeyDown={(e) => {
     if (e.key === 'Enter' || e.key === ' ') {
       handleSectionClick(e);
     }
   }}
-  tabIndex="0"
+  
 >
       className="hero"
       onClick={() => window.location.assign('/about')}
@@ -19,7 +19,7 @@ export default function HeroBanner() {
       <p>Up to 40% off selected items.</p>
       <img src="hero-banner.png" alt="" />
       <img src="badge-new.png" alt="" />
-      <a>Learn more about our services</a>
+      <a href="/services">Learn more about our services</a>
       <a href="/lookbook">[icon]</a>
     </section>
   );
