@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function HeroBanner() {
   return (
-    <section role="button" tabIndex={0}
+    <button
   onClick={handleSectionClick}
   onKeyDown={(e) => {
     if (e.key === 'Enter' || e.key === ' ') {
