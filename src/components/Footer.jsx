@@ -8,7 +8,7 @@ export default function Footer() {
         <a href="/privacy">Privacy</a>
         <a href="/terms">Terms</a>
         <a href="/sitemap">Sitemap</a>
-        <a href="/careers"></a>
+        <a href="/careers">Careers</a>
       </nav>
       <button aria-label="">Dismiss</button>
     </footer>
