@@ -5,8 +5,9 @@ export default function NewsletterForm() {
     <form className="newsletter">
       <h3>Subscribe</h3>
       <label htmlFor="email-address">Email address</label>
-<input type="email" id="email-address" placeholder="Email address" autoFocus />
-      <audio controls aria-label="Audio player">
+<input type="email" id="email-address" name="email-address" />
+<><label htmlFor="email-address" className="sr-only">Email Address</label><input type="email" id="email-address" placeholder="Email address" autoFocus /></>
+      <><audio controls aria-label="Audio player"></audio><p><a href="path/to/transcript.html">View Transcript</a></p></>
         <source src="promo.mp3" type="audio/mpeg" />
       </audio>
       <img src="newsletter-badge.png" alt="Newsletter badge" />
